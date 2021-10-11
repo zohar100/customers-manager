@@ -1,0 +1,15 @@
+{
+    "name": "zohar_banai/crud_app",
+    "authors": [
+        {
+            "name": "zohar",
+            "email": "zoarb100@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}

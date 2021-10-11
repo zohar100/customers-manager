@@ -1,0 +1,44 @@
+<form id="customerForm">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input name="name" placeholder="Enter full name" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Your Type</label>
+        <select name="type" class="form-select" id="typesForm">
+            <option value="" disabled="" hidden="">Choose type</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input name="phone" placeholder="Enter phone number" type="tel" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input name="email" placeholder="Enter email" type="email" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input name="address" placeholder="Enter your address" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="d-block form-label">Gender</label>
+        <div class="form-check form-check-inline">
+            <input name="gender" type="radio" class="form-check-input" value="M">
+            <label title="" class="form-check-label">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input name="gender" type="radio" class="form-check-input" value="F">
+            <label title="" class="form-check-label">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input name="gender" type="radio" class="form-check-input" checked value="O">
+            <label title="" class="form-check-label">Other</label>
+        </div>
+    </div>
+    <div class="mb-3" id="productsForm">
+        <label class="d-block form-label">Favorite Products</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<script type="module" src="/assets/scripts/form/index.js"></script>
