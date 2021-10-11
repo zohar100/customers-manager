@@ -4,6 +4,10 @@
 
 ## Usage
 
+<img src="uploads/form-page.png"/>
+<img src="uploads/customers-page.png"/>
+<img src="uploads/dashboard-page.png"/>
+
 ## Database
 
 1. run customerManager.sql file.
@@ -33,6 +37,8 @@ In the main folder run the following command:
 
 ```
 cd ./frontend/public
+
+composer install
 
 php -S localhost:3000
 ```
